@@ -3,7 +3,6 @@ venv/
 __pycache__/
 *.pyc
 .git/
-data/raw_pdfs/
 eval_results/
 *.png
 *.jpg
