@@ -124,27 +124,6 @@ Query the financial documents with a natural language question.
 
 ---
 
-## 📁 Project Structure
-finsight-rag/
-├── src/
-│   ├── ingestion.py       # PDF loading, junk filtering, chunking
-│   ├── retriever.py       # Hybrid BM25+FAISS EnsembleRetriever
-│   ├── reranker.py        # Cross-encoder reranking
-│   ├── pipeline.py        # Full RAG pipeline assembly
-│   ├── evaluate.py        # RAGAS evaluation suite
-│   └── eval_questions.py  # 15-question ground truth dataset
-├── api/
-│   └── main.py            # FastAPI application
-├── data/
-│   └── raw_pdfs/          # Infosys Annual Reports FY2024-FY2026
-├── eval_results/
-│   └── scores.json        # RAGAS benchmark results
-├── assets/                # README images
-├── Dockerfile
-├── requirements.txt
-└── README.md
-
----
 
 ## ⚙️ Local Setup
 
